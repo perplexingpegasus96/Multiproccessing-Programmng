@@ -1,0 +1,21 @@
+# Run complete. Total time: 00:05:22
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                                         Mode  Cnt       Score       Error   Units
+BenchmarkCounter.ConcurentCounter                                thrpt    5   99828,830 ± 13174,504  ops/ms
+BenchmarkCounter.ConcurentCounter:testConcurentCounterGetValue   thrpt    5   68751,265 ± 14216,990  ops/ms
+BenchmarkCounter.ConcurentCounter:testConcurentCounterIncrement  thrpt    5   31077,564 ±  2714,945  ops/ms
+BenchmarkCounter.LockCounter                                     thrpt    5  150589,098 ± 29764,963  ops/ms
+BenchmarkCounter.LockCounter:testLockCounterGetValue             thrpt    5  124855,576 ± 30799,760  ops/ms
+BenchmarkCounter.LockCounter:testLockCounterIncrement            thrpt    5   25733,522 ±  1454,639  ops/ms
+BenchmarkCounter.MagicCounter                                    thrpt    5  113098,322 ± 29670,714  ops/ms
+BenchmarkCounter.MagicCounter:testMagicCounterGetValue           thrpt    5   83090,593 ± 29386,319  ops/ms
+BenchmarkCounter.MagicCounter:testMagicCounterIncrement          thrpt    5   30007,728 ±  1149,645  ops/ms
+BenchmarkCounter.MutexCounter                                    thrpt    5  290174,896 ± 22957,240  ops/ms
+BenchmarkCounter.MutexCounter:testMutexCounterGetValue           thrpt    5   97331,134 ± 31021,095  ops/ms
+BenchmarkCounter.MutexCounter:testMutexCounterIncrement          thrpt    5  192843,762 ± 11859,772  ops/ms

@@ -1,0 +1,13 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,com/company/BenchmarkCounter.testConcurentCounterGetValue
+inline,com/company/BenchmarkCounter.testConcurentCounterIncrement
+inline,com/company/BenchmarkCounter.testLockCounterGetValue
+inline,com/company/BenchmarkCounter.testLockCounterIncrement
+inline,com/company/BenchmarkCounter.testMagicCounterGetValue
+inline,com/company/BenchmarkCounter.testMagicCounterIncrement
+inline,com/company/BenchmarkCounter.testMutexCounterGetValue
+inline,com/company/BenchmarkCounter.testMutexCounterIncrement
