@@ -44,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BenchmarkCounter">
+  <component name="RunManager" selected="JUnit.CounterTest">
     <configuration name="BenchmarkCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.BenchmarkCounter" />
       <module name="HW3" />
@@ -127,8 +127,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BenchmarkCounter" />
         <item itemvalue="JUnit.CounterTest" />
+        <item itemvalue="Application.BenchmarkCounter" />
         <item itemvalue="JUnit.CounterTest.testMagicExecution" />
         <item itemvalue="JUnit.CounterTest.testSequentialExecution" />
         <item itemvalue="Application.Test" />
@@ -146,7 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571317481547</updated>
       <workItem from="1571317485808" duration="27626000" />
-      <workItem from="1571482811831" duration="235000" />
+      <workItem from="1571482811831" duration="2453000" />
     </task>
     <servers />
   </component>

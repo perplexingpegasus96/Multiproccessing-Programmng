@@ -7,17 +7,11 @@ public class ConcurrentCounterImpl implements Counter{
 
     @Override
     public void increment() {
-        while(true){
-            int currentValue = getValue();
-            int newValue = currentValue + 1;
-            if (value.compareAndSet(currentValue, newValue)){
-                return;
-            }
-        }
+        value.incrementAndGet();
     }
 
     @Override
-    public int getValue() {
+    public long getValue() {
         return value.get();
     }
 }

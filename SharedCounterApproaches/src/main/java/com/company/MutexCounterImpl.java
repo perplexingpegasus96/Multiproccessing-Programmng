@@ -8,7 +8,7 @@ public class MutexCounterImpl implements Counter {
     }
 
     @Override
-    public int getValue() {
+    public long getValue() {
         return value;
     }
 }

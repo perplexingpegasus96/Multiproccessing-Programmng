@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 public class CounterTest {
     public static final int NUMBER_OF_THREADS = 4;
 
-    private static final int INCREMENTAL_CALLS_COUNT = 100000;
+    private static final int INCREMENTAL_CALLS_COUNT = 1000;
     private static final Counter lockCounter = new LockCounterImpl();
     private static final Counter mutexCounter = new MutexCounterImpl();
     private static final Counter concurrentCounter = new ConcurrentCounterImpl();

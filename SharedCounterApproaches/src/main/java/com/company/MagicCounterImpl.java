@@ -16,7 +16,7 @@ public class MagicCounterImpl implements Counter {
     }
 
     @Override
-    public int getValue() {
+    public long getValue() {
         return value;
     }
 }
